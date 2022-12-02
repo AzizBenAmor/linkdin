@@ -1,0 +1,45 @@
+.widgets{
+    position: sticky;
+    top: 80px;
+    flex:0.2;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+.widget__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.widget__header >h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+.widget__article{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+.widget__article  :hover{
+    background-color: whitesmoke;
+}
+.widget__articleleft{
+    color:rgb(46, 46, 253);
+    margin-right: 5px;
+}
+.widget__articleleft >.MuiSvgIcon-root{
+    font-size: 15px;
+}
+.widget__articleright{
+    flex: 1;
+}
+.widget__articleright>h4{
+    font-size: 14px;
+}
+.widget__articleright>p{
+    font-size: 12px;
+    color: gray;
+}
